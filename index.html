@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function add7(num){
+            alert(num + 7);
+        }
+        add7(2);
+        
+        function multiply(num1, num2){
+            alert(num1 * num2);
+        }
+        multiply(2, 2);
+
+        function capitalize(word){
+            let text = word;
+            alert(text.charAt(0).toUpperCase() + text.slice(1));
+        }
+        capitalize("bAnana");
+
+        function lastLetter(word){
+            let text = word;
+            alert(text.slice(-1));
+        }
+        lastLetter("apple");
+    </script>
+</body>
+</html>
